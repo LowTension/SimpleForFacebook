@@ -31,7 +31,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="60dip"
                 android:gravity="center"
-                android:text="Welcome to Simple Pro"
+                android:text="Welcome to Simple"
                 android:textColor="@android:color/white"
                 android:textSize="24sp" />
 
