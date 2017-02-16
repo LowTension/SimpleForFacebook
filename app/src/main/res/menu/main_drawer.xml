@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/quickaccess">
+        <menu>
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/recent"
+                    android:icon="@drawable/ic_most_recent"
+                    android:title="@string/most_recent"
+                    android:visible="true" />
+
+                <item
+                    android:id="@+id/top"
+                    android:icon="@drawable/ic_top_news"
+                    android:title="@string/top_news"
+                    android:visible="true" />
+
+                <item
+                    android:id="@+id/online_friends"
+                    android:icon="@drawable/ic_friends"
+                    android:title="@string/fb_chat"
+                    android:visible="true" />
+
+
+                <item
+                    android:id="@+id/trending"
+                    android:icon="@drawable/ic_trends"
+                    android:title="@string/trending"
+                    android:visible="true" />
+
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/favorites">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/friends"
+                    android:icon="@drawable/ic_friends"
+                    android:title="Friends"
+                    android:visible="true" />
+
+                <item
+                    android:id="@+id/group"
+                    android:icon="@drawable/ic_grouped"
+                    android:title="@string/groups"
+                    android:visible="true" />
+
+                <item
+                    android:id="@+id/pages"
+                    android:icon="@drawable/ic_pages"
+                    android:title="@string/pages"
+                    android:visible="true" />
+
+                <item
+                    android:id="@+id/photos"
+                    android:icon="@drawable/ic_pictures"
+                    android:title="Albums"
+                    android:visible="true" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/reminders">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/events"
+                    android:icon="@drawable/ic_event"
+                    android:title="@string/events"
+                    android:visible="true" />
+
+                <item
+                    android:id="@+id/birthdays"
+                    android:icon="@drawable/ic_birthdays"
+                    android:title="@string/birthday"
+                    android:visible="true" />
+
+                <item
+                    android:id="@+id/onthisday"
+                    android:icon="@drawable/ic_on_this_day"
+                    android:title="@string/onthisday"
+                    android:visible="true" />
+
+                <item
+                    android:id="@+id/saved"
+                    android:icon="@drawable/ic_saved"
+                    android:title="@string/saved"
+                    android:visible="true" />
+            </group>
+        </menu>
+    </item>
+
+
+
+
+    <item
+        android:id="@+id/feedback"
+        android:title="@string/feedback" />
+
+    <item
+        android:id="@+id/bugreport"
+        android:title="@string/bugs" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings" />
+
+
+</menu>

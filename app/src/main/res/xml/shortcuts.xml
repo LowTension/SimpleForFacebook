@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="post"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_post"
+        android:shortcutShortLabel="@string/update_status"
+        android:shortcutLongLabel="@string/update_status"
+        android:shortcutDisabledMessage="@string/update_status"
+        tools:ignore="UnusedAttribute">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="post"
+            android:targetPackage="com.creativetrends.simple.app"
+            android:targetClass="com.creativetrends.simple.app.activities.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+
+    <shortcut
+        android:shortcutId="notification"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_notifications"
+        android:shortcutShortLabel="@string/notifications"
+        android:shortcutLongLabel="@string/notifications"
+        android:shortcutDisabledMessage="@string/notifications"
+        tools:ignore="UnusedAttribute">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="notifications"
+            android:targetPackage="com.creativetrends.simple.app"
+            android:targetClass="com.creativetrends.simple.app.activities.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="messages"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_messages"
+        android:shortcutShortLabel="@string/messages"
+        android:shortcutLongLabel="@string/messages"
+        android:shortcutDisabledMessage="@string/messages"
+        tools:ignore="UnusedAttribute">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="messages"
+            android:targetPackage="com.creativetrends.simple.app"
+            android:targetClass="com.creativetrends.simple.app.activities.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+
+
+
+</shortcuts>

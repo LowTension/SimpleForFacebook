@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+
+    <string-array name="pref_theme_values">
+        <item>facebookblue</item>
+        <item>falcondark</item>
+        <item>pinkdark</item>
+        <item>deeppurpledark</item>
+        <item>googlebluedark</item>
+        <item>greendark</item>
+        <item>lightgreendark</item>
+        <item>amberdark</item>
+        <item>deeporangedark</item>
+        <item>cyandark</item>
+        <item>bluegreydark</item>
+        <item>darktheme</item>
+    </string-array>
+
+
+    <string-array name="default_font_size_entries">
+        <item>XXSmall (50%)</item>
+        <item>XSmall (75%)</item>
+        <item>Smaller (85%)</item>
+        <item>Small (90%)</item>
+        <item>Default (100%)</item>
+        <item>Medium (105%)</item>
+        <item>Large (115%)</item>
+        <item>XLarge (125%)</item>
+        <item>XXLarge (175%)</item>
+    </string-array>
+
+    <string-array name="default_font_size_entry_values">
+        <item>50</item>
+        <item>75</item>
+        <item>85</item>
+        <item>90</item>
+        <item>100</item>
+        <item>105</item>
+        <item>115</item>
+        <item>125</item>
+        <item>175</item>
+    </string-array>
+
+
+    <string-array name="pref_theme_values_free">
+        <item>facebooktheme</item>
+        <item>materialtheme</item>
+        <item>draculatheme</item>
+        <item>darktheme</item>
+
+    </string-array>
+
+    <string-array name="pref_feed">
+        <item>most_recent</item>
+        <item>top_news</item>
+    </string-array>
+
+
+    <string-array name="update_interval_values">
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>10800000</item>
+        <item>21600000</item>
+    </string-array>
+
+
+</resources>

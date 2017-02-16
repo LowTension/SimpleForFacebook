@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:elevation="4dp"
+        tools:targetApi="lollipop">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/browser_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:contentInsetStartWithNavigation="0dp">
+
+
+
+            <ImageView
+                android:id="@+id/lockButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="5dp"
+                android:background="@android:color/transparent"
+                android:padding="3dp"
+                android:src="@drawable/ic_secure"
+                android:tint="@color/white"
+                android:visibility="gone"
+                tools:ignore="ContentDescription,RtlSymmetry" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingEnd="4dp"
+                android:paddingStart="4dp"
+                android:paddingTop="12dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/toolbarTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_horizontal"
+                        android:layout_marginStart="4dp"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:textColor="@android:color/white"
+                        android:textSize="16.9sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/toolbarSub"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_horizontal"
+                        android:layout_marginStart="4dp"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:textColor="@color/md_secondary_text_icons_white"
+                        android:textSize="12sp"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/simple_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="0dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_browser">
+
+
+        <com.creativetrends.simple.app.webview.WebViewScroll
+            android:id="@+id/simple_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:hapticFeedbackEnabled="true"/>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <FrameLayout
+        android:id="@+id/menu_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:elevation="4dp"
+        android:focusable="false"
+        android:soundEffectsEnabled="false"
+        tools:ignore="UnusedAttribute">
+        <include layout="@layout/simple_overflow" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fullscreen_custom_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#000"
+        android:clickable="false"
+        android:visibility="gone"
+        tools:ignore="RtlCompat" />
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Copyright (C) 2014-2015 Jorell Rutledge/Creative Trends.
+	This file is originally apart of Folio for Facebook.
+	Copyright notice must remain here if you're using any part of this code.-->
+
+    <dimen name="drawer_top">24dp</dimen>
+    <dimen name="drawer_left">16dp</dimen>
+    <dimen name="drawer_right">16dp</dimen>
+    <dimen name="drawer_grouping_padding">8dp</dimen>
+    <dimen name="favorites_height">80dp</dimen>
+    <dimen name="favorites_text">20dp</dimen>
+    <dimen name="favorites_add">22dp</dimen>
+
+
+    <dimen name="dialog_frame_margin">24dp</dimen>
+    <dimen name="dialog_content_padding_top">8dp</dimen>
+    <dimen name="dialog_content_padding_bottom">8dp</dimen>
+    <dimen name="dialog_content_textsize">14sp</dimen>
+    <dimen name="pref_title_space">16dp</dimen>
+
+
+    <dimen name="fab_scroll_threshold">0dip</dimen>
+
+    <dimen name="app_defaultsize_w">632.0dip</dimen>
+    <dimen name="app_defaultsize_h">598.0dip</dimen>
+    <dimen name="app_minimumsize_w">632.0dip</dimen>
+    <dimen name="app_minimumsize_h">598.0dip</dimen>
+
+
+    <!-- Small -->
+
+
+    <dimen name="activity_dialog_title_size">9sp</dimen>
+    <dimen name="activity_dialog_content_size">5sp</dimen>
+    <dimen name="activity_dialog_positive_button_size">6sp</dimen>
+    <dimen name="activity_dialog_negative_button_size">6sp</dimen>
+
+
+    <dimen name="keyboard_button_padding">15dp</dimen>
+    <dimen name="keyboard_button_ripple_padding">30dp</dimen>
+    <dimen name="light_gray_bar_margin_sides">50dp</dimen>
+    <dimen name="pin_code_forgot_text_size">16sp</dimen>
+    <dimen name="activity_pin_code_padding">20dp</dimen>
+    <dimen name="pin_code_logo_margin">30dp</dimen>
+
+
+</resources>

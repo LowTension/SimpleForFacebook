@@ -1,0 +1,634 @@
+body * {
+    border:  0px #292929 !important;
+    color:  #E5E5E5;
+    background-color:  transparent !important;
+}
+
+._52z5, ._4nmh, ._4u3j, ._35aq, ._146a,
+._4g34, ._5pxb, ._55wq, ._53_-, ._55ws, ._u42, .jx-result,
+.jx-typeahead-results, ._56bt,
+._52x7, ._vqv, ._4g33, ._5rgt, .popover_flyout, .flyout,
+#m_newsfeed_stream,
+._55wo, ._3iln, .mentions-suggest,
+#header, ._xy, ._bgx,
+.acb, .acg,
+._59e9, .nontouch ._5ui0,
+input[type=text],
+.acw, ._5up8, ._5kgn,
+.tlLinkContainer, .aps,
+.jewel .flyout .header, .appCenterCategorySelectorButton,
+.touch ._5c9u, .touch ._5ca9, .innerLink,
+._5dy4, ._52x3, #m_group_stories_container, .albums, .subpage,
+._uwu, ._uww, .scrollAreaBody, .al, .apl, .structuredPublisher, .groupChromeView,
+._djv, ._bjg, ._5kgn, ._3f50, ._55wm, ._58f0, ._5m_v, ._5jc5._5n04.async_composer, ._5m_s,
+._2foa, ._4-sx {
+    background: #292929 !important;
+}
+
+textarea{
+    color:  #E5E5E5 !important;
+}
+
+* {
+    -webkit-tap-highlight-color: rgb(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+	outline:none;
+}
+
+body{
+    background-color: #292929 !important;
+    color: #e5e5e5 !important;
+}
+
+html, ._2v9s  {
+    background-color: #292929 !important;
+}
+
+._26ii {
+    overflow: hidden;
+    position: relative;
+}
+
+._4z1e {
+    padding: 0px;
+}
+
+._10c_ ._2jl2 {
+    background: #292929;
+    border-bottom: 1px solid rgba(0, 0, 0, .16);
+    border-top: 1px solid rgba(0, 0, 0, .16);
+}
+
+.img {
+    border: 2px solid #fff;
+    display: inline-block;
+    vertical-align: top;
+}
+
+._129_ > :first-child {
+    border-top: 0px solid transparent;
+    border-top-width: 0px;
+    border-top-style: none;
+    border-top-color: transparent;
+}
+
+._129- {
+    border-top: none;
+}
+
+
+._10c_ ._2jl2 {
+    background: #292929;
+}
+
+._15n_ {
+    background-color: #292929 !important;
+    border-top: 1px solid #292929;
+
+}
+
+._15nr._15nx {
+    padding: 2px;
+    margin-bottom: 15px;
+    margin-top: 12px;
+
+    background-color:#292929;
+    border: 1px solid #303030 !important;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+}
+
+
+
+._15nz ._4g33 {
+    padding: 8px;
+}
+
+._1_oa._1w-s {
+
+}
+
+
+._2jl2 {
+    margin: 8px 8px 8px 8px;
+    margin-bottom: 8px;
+}
+
+
+
+
+._2vj7._2phz.voice.acw {
+    padding: 2px;
+    margin-bottom: 20px;
+    background-color:#000;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+}
+
+
+._2zh4, ._15ks {
+    background: #000;
+    }
+
+
+._44qk ._4g34 ._52jh {
+    color: #fff ;
+    font-weight: normal ;
+    padding: 8px 0px 8px 0px;
+}
+
+._44qk ._4g34 .fcg {
+    color: #fff;
+}
+
+._45kb>div {
+    margin: 4px;
+    border-top: 1px solid #292929;
+}
+
+._46pa.day7 {
+    color: #fff;
+}
+
+
+._4g33._15n_ {
+    padding: 5px;
+}
+._4g33._52we._34qc._34qd._3hxn {
+    padding: 5px;
+}
+
+._4g33._52wf._-hs, #m-timeline-cover-section ._55wo ._52jj {
+    background-color: #282828;
+    padding-bottom: 0px;
+}
+
+._52jc._24u0._1xvv._5tg_ {
+    color: #fff;
+}
+
+
+._52jd {
+    color: #fff;
+}
+
+._52jh._4g33._15kk._15ks._15km {
+    padding: 5px;
+}
+
+._52we ._5xu4 {
+    margin: 0px 0px 10px 0px ;
+    border-color: #292929;
+    border: 2px;
+}
+
+._52x1 {
+    padding: 8px;
+}
+
+._52x6.touchable {
+    padding: 6px;
+}
+
+._53i6._53i6._53i6 {
+    margin: 6px;
+}
+
+._55wo ._4g34._ru9 span.mfss.fcg {
+    color: #fff;
+}
+
+._55wr._-hs {
+    background-color: #292929
+;
+    padding: 10px 15px 10px 10px;
+}
+
+._55wr._4g33._52we._-hs {
+    background-color: #292929;
+    padding: 10px
+;
+}
+
+._56bf ._55wr {
+    background-color: #292929
+;
+}
+
+
+._55wr._4g33._400s {
+    background-color: #292929 !important;
+
+    margin-top: 12px;
+
+    color: #fff;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+    padding: 12px 10px 12px 15px;
+    display: none;
+}
+
+
+._5gh8._5rgr {
+    padding: 0px;
+
+    margin-bottom: 15px;
+    margin-top: 12px;
+
+    background-color:#292929;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+
+}
+
+._5qc1 {
+    padding: 10px 8px 8px 15px;
+}
+
+._5s61._54k6 {
+    margin-top: 12px;
+}
+
+
+._d6- {
+    padding: 10px;
+}
+
+
+
+.desc .fcg .atb ._2vja.mfss.fcg abbr {
+    color: #fff;
+}
+
+.desc.attachment.mfss {
+    padding-left: 5px
+;
+}
+
+.jewel ._3wjp {
+    padding: 2px;
+    margin-bottom: 20px;
+    background-color:#292929;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+
+}
+
+.msg {
+    margin: 0px 8px 0px 8px;
+}
+
+.statusBox {
+
+}
+
+.timeline .timelinePublisher.inlineComposer {
+    padding: 2px;
+    margin-bottom: 15px;
+    background-color:#292929;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+
+}
+
+
+.touch {
+    height: 15px;
+    margin: 8px 8px 8px 10px;
+}
+
+
+
+.touch ._44qk {
+    padding: 2px;
+    margin-bottom: 20px;
+    background-color:#000;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+
+}
+
+.touch ._55wr._4g33._52we {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.touch .al._5lm6, .touch .al._5dka, .touch .al._4_00, .touch .al._5jl7 {
+    padding: 20px 16px;
+}
+
+a._4_h4._55wr._5ylm {
+    background-color: #292929 ;
+    padding: 8px ;
+    margin-bottom: 20px;
+}
+
+abbr {
+    margin-left: 8px;
+}
+
+div#messageGroup {
+    margin: 5px;
+    background-color:#292929;
+}
+
+div#messageGroup, div#message-reply-composer {
+    padding: 2px;
+    margin-bottom: 25px;
+    background-color:#000;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+
+}
+
+div.like_def._55wr.likes {
+    padding: 8px;
+}
+
+h3._52jd._52jh._4o51, h4._52jc._52jg._24u1._4o59._5tg_ , h1._52jd._52jh._4o51 {
+    color: #fff;
+}
+
+header._52ja._55wr._usq {
+    color: #fff;
+    padding: 8px;
+}
+
+header._52je._52jb._52jh._4g33._52we._2pi8._2pi4 {
+    background-color: #fff;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+header._52je._52jb._52jh._4g33._52we._2pi8._2pi4 ._4g34 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+i.img._42b6._403j.profpic {
+    border-color: solid #fff !important;
+}
+
+p {
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+span._146a {
+    visibility: hidden;
+}
+
+._56be._4hkg._5rgr._5tx9 {
+    padding: 0px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+
+    background-color:   #000;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+
+}
+
+ul._7k7, ._56be._4hkg._5rgr._5tx9 {
+    padding: 0px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+
+
+    background-color:#292929;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+
+}
+
+
+._2vj7 ._4g33 ._4g34 .ib .c div.msg div,h1._52jc._52jg._24u1._4o59._5tg_,._2vj7._2vj7._2vj7._2vj7 a, div#voice_replace_id .fcg, a.sub, h3._391s {
+    color: #fff;
+}
+
+._52z5 {
+    box-sizing: border-box;
+    height: 44px;
+    padding: 7px 0;
+    position: relative;
+    z-index: 12;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+}
+
+._4756 {
+    background-color: #292929;
+    border-color: #292929;
+}
+
+.jewel .flyout {
+    background-color: #292929;
+}
+
+
+._4e8n {
+    background-color: #292929;
+    border: 1px solid #292929;
+}
+
+
+._15ny{
+    border-bottom: 1px solid #292929;
+}
+
+._15ks ._15kl::before {
+    border-left: 1px solid #292929;
+}
+
+._2ip_ ._2zh4::before, ._2ip_ ._15kk::before, {
+    background: #292929;
+}
+
+._5j35{
+    border-left: 1px solid #292929;
+}
+
+._4u3j {
+    background: #292929;
+    color: #fff;
+    padding: 12px;
+}
+
+.jewel .flyout .inner {
+    overflow-x: hidden;
+    pointer-events: auto;
+    text-align: left;
+    width: 100%;
+    background-color: #292929;
+}
+
+element.style {
+    background-color: #111;
+}
+
+
+._hy3 {
+    outline: 1px solid #333;
+    outline-offset: -1px;
+}
+
+._55x2>*, ._55x2._55x2>* {
+    border-bottom-color: #333;
+}
+
+.jewel ._usq {
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+
+._59e9 {
+    background: #000;
+}
+
+._3bg5 ._52x6 {
+    border-top-color: #333;
+}
+
+._50cg._2ss {
+    box-shadow:   none !important;
+    border:  none !important;
+}
+
+article, .timelinePublisher, ._10c_ ._2jl2, ._55wr._4g33._52wc._2-ck._51s,
+._59e9._55wo._4g34, #friends_center_main, .touch ._5b6o, ._2ykg .unreadMessage,
+#owned_pages_section, #liked_pages_section, .item.tall.acw.abb, ._4g34._5o41{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    border: 1px solid #333 !important;
+    background-color: #292929;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+}
+
+#mbasic_inline_feed_composer{
+    margin-bottom: 17px;
+    margin-top: 2px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+    border: 1px solid #333 !important;
+}
+
+._4o50, ._3wjp, ._usq, ._55wq, ._400s {
+    background-color: #292929;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.4);
+    border: 1px solid #333 !important;
+}
+
+article h3 {
+    color: #999 !important;
+}
+
+
+._53_-, ._52x6, ._52x1, ._2l5v, ._tn0, ._52ja, ._5lm6 {
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+._59te.popoverOpen, ._59te.isActivem, ._59te {
+    background: #292929;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+._2lut {
+    border: 1px solid #292929; !important;
+}
+
+
+
+._5c0e, ._5bn_ {
+    background: #292929 !important;
+
+}
+
+._52z5 {
+
+}
+
+.button>a.touchable, .btn, .touch ._5c9u, ._2l5v,
+._52x1, ._tn0, ._52ja, ._5lm6 {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    background: #282828 !important;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1);
+}
+
+.ufiBorder, ._5as0, ._5ef_, ._35aq {
+    border-color: #292929;
+}
+
+
+.touchable-notification, .touch ._55wr, .touch ._5b6o,
+._1_oa._4gvh._1w-s._1_od, ._1_oa._4gvh._1w-s, ._3to4,
+#owned_pages_section, #liked_pages_section,
+.item.tall.acw.abb, .item.buddylistItem.itemWithAction.acw.abt{
+    background: #292929;
+}
+
+._3bg5 ._53_-, .touchable-notification, ._55wq ._4g33 ._5pxa ._5vbx,
+._1_oa._4gvh._1w-s._1_od, ._1_oa._4gvh._1w-s, .item.buddylistItem.itemWithAction.acw.abt{
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    border: 1px solid #333 !important;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+}
+
+body, .touch ._2ya3, ._4qas, ._4qau, .composerTextSelected, .composerInput, .mentions-input, input[type=text], ._5001, .timeline .cover .profileName, .appListTitle, ._52jd, ._52jb, ._52jg, ._5qc3, .tlActorText, .tlLinkTitle, ._5379, ._5cqn, ._592p, ._3c9l, ._4yrh, .name, .btn, .upText, .tlLinkTitleOnly, ._5rgt, ._52x2, ._52jh, ._52ja, ._56bz, ._2tbu, ._1mwn, ._55sr, ._5t6r, ._1_oe, ._52lz, ._2l5v, .inputtext, .inputpassword, .touch, .touch tr, .touch input, .touch textarea, .touch .mfsm {
+    color: #e5e5e5 !important;
+}
+
+a, .actor, .mfsl, .fcw, .title, .blueName, ._5aw4, ._vqv, ._5yll, ._5qc3, ._52lz, ._4nwe, ._27vp, ._ir4, ._5wsv, ._46pa {
+    color: #e5e5e5 !important;
+}
+
+._5c4t ._1g06 {
+    color: #E5E5E5;
+}
+
+._90t {
+    color: #E5E5E5;
+}
+
+._r4w, ._3fm7 {
+    color: #E5E5E5;
+}
+
+._90v {
+    color: #E5E5E5;
+}
+
+.touch ._37fd .inlineComposerButton .composerLinkText {
+    color: #E5E5E5;
+}
+
+._2vxk {
+    color: #E5E5E5;
+}
+
+._4prr::after {
+    border: 1px transparent;
+}
+
+.img {
+    border: 1px transparent;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.aclb {
+background-color: #333 !important;
+}
+
+._59tg {
+    background: #da2929 !important;
+
+    color: #fff;
+    font-size: 10px;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 4px;
+    position: absolute;
+    right: 1px;
+    top: 6px;
+}

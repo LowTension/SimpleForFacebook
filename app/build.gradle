@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "24.0.3"
+    defaultConfig {
+        applicationId "com.creativetrends.simple.app"
+        return void
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            debuggable false
+            jniDebuggable false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        disable 'MissingTranslation'
+        disable 'ExtraTranslation'
+        return void
+    }
+
+}
+
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    compile 'com.android.support:recyclerview-v7:25.1.1'
+    compile 'com.android.support:design:25.1.1'
+    compile 'com.android.support:palette-v7:25.1.1'
+    compile 'com.android.support:cardview-v7:25.1.1'
+    compile 'com.android.support:customtabs:25.1.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile project(':customtabview')
+    compile 'com.github.clans:fab:1.6.4'
+    //noinspection GradleDynamicVersion
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+    compile 'org.jsoup:jsoup:1.8.3'
+    compile 'ch.acra:acra:4.7.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.github.chrisbanes:PhotoView:1.2.6'
+    compile 'com.github.traex.rippleeffect:ripple:1.3.1-OG'
+    compile 'com.github.omadahealth.typefaceview:typefaceview:1.3.0@aar'
+    compile 'uk.me.lewisdeane.ldialogs:ldialogs:1.2.0@aar'
+    compile 'com.squareup.okio:okio:1.9.0'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'uk.co.samuelwall:material-tap-target-prompt:1.9'
+}

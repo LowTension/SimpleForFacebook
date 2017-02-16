@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item
+        android:id="@+id/quick_jump"
+        android:icon="@drawable/ic_up"
+        android:orderInCategory="2"
+        android:title="@string/fab_jump"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/quick_share"
+        android:icon="@drawable/ic_share_now"
+        android:orderInCategory="3"
+        android:title="@string/update_share"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+
+    <item
+        android:id="@+id/quick_min"
+        android:icon="@drawable/ic_min_quickbar"
+        android:orderInCategory="4"
+        android:title="Minimize"
+        android:visible="false"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction,HardcodedText"/>
+
+    <item
+        android:id="@+id/quick_max"
+        android:icon="@drawable/ic_max_quickbar"
+        android:orderInCategory="5"
+        android:title="Maximize"
+        android:visible="false"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction,HardcodedText" />
+
+
+</menu>

@@ -1,0 +1,12 @@
+#header{ margin-top: -1px ; border: none  important!; }
+
+._129_ > :first-child {
+    border-top: 0px solid transparent;
+        border-top-width: 0px;
+        border-top-style: none;
+        border-top-color: transparent;
+}
+
+._129- {
+    border-top: none;
+}

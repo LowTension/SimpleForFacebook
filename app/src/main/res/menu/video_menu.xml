@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/video_save"
+        android:icon="@drawable/ic_download"
+        android:orderInCategory="0"
+        android:title="@string/download"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+
+
+
+    <item
+        android:id="@+id/photo_copy"
+        android:orderInCategory="4"
+        android:title="@string/context_copy_image_link"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/photo_open"
+        android:orderInCategory="5"
+        android:title="@string/open_in_browser"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+
+
+</menu>

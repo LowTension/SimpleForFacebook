@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="185dp"
+    android:background="?attr/colorPrimary"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/back_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="?attr/colorPrimary"
+            android:src="@drawable/ic_cover"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="#60000000"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/drawer_grouping_padding"
+        android:paddingEnd="@dimen/drawer_right"
+        android:paddingLeft="@dimen/drawer_left"
+        android:paddingRight="@dimen/drawer_right"
+        android:paddingStart="@dimen/drawer_left"
+        android:paddingTop="@dimen/drawer_top"
+        tools:ignore="RtlHardcoded">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="19dp"
+            tools:ignore="UselessParent">
+
+
+        <com.creativetrends.simple.app.ui.RoundImage
+            android:id="@+id/profile_pic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="15dp"
+            android:contentDescription="Profile Picture"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_facebook"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:paddingTop="15dp"
+            android:text="@string/app_name_pro"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/app_name_pro"
+            android:alpha="0.7"
+            android:paddingTop="3.0dip"
+            android:textColor="@color/white" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true">
+
+                <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context=".activities.MainActivity">
+
+                    <android.support.design.widget.AppBarLayout
+                        android:id="@+id/appbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:elevation="1dp"
+                        android:theme="@style/AppTheme.AppBarOverlay"
+                        tools:targetApi="lollipop"
+                        android:soundEffectsEnabled="false">
+
+                        <android.support.v7.widget.Toolbar
+                            android:id="@+id/toolbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/actionBarSize"
+                            android:background="?attr/colorPrimary"
+                            app:layout_scrollFlags="scroll|enterAlways"
+                            app:popupTheme="@style/AppTheme.PopupOverlay"
+                            android:soundEffectsEnabled="false"/>
+
+
+                    </android.support.design.widget.AppBarLayout>
+
+
+                    <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/simple_swipe"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+                        <com.creativetrends.simple.app.webview.WebViewScroll
+                            android:id="@+id/main_webView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+
+                    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+                    <com.github.clans.fab.FloatingActionMenu
+                        android:id="@+id/fab"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="bottom|end"
+                        android:paddingBottom="60dp"
+                        android:paddingEnd="10dp"
+                        fab:menu_colorNormal="?attr/colorPrimary"
+                        fab:menu_colorPressed="?attr/colorPrimaryDark"
+                        fab:menu_colorRipple="?attr/colorPrimary"
+                        tools:ignore="RtlSymmetry"
+                        app:layout_behavior="com.creativetrends.simple.app.ui.FloatingActionButtonBehaviour">
+
+
+
+                        <com.github.clans.fab.FloatingActionButton
+                            android:id="@+id/shareFab"
+                            style="@style/MenuButtonsStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_share_now"
+                            fab:fab_label="@string/update_share" />
+
+                        <com.github.clans.fab.FloatingActionButton
+                            android:id="@+id/locationFab"
+                            style="@style/MenuButtonsStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_share_location"
+                            fab:fab_label="@string/update_location" />
+
+
+                        <com.github.clans.fab.FloatingActionButton
+                            android:id="@+id/photoFab"
+                            style="@style/MenuButtonsStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_add_pic"
+                            fab:fab_label="@string/update_photo" />
+
+
+                        <com.github.clans.fab.FloatingActionButton
+                            android:id="@+id/updateFab"
+                            style="@style/MenuButtonsStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_edit"
+                            fab:fab_label="@string/update_status" />
+
+                    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+                    <com.akiniyalocts.minor.MinorLayout
+                        android:id="@+id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:layout_gravity="bottom"
+                        android:background="@color/dcA"
+                        app:layout_behavior="com.creativetrends.simple.app.ui.FloatingActionButtonBehaviour"
+                        app:minor_center_items="true"
+                        tools:targetApi="lollipop">
+
+                        <com.akiniyalocts.minor.MinorView
+                            android:id="@+id/news_badges"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            app:minor_icon_view="@layout/tab_news"
+                            app:minor_selected="true"
+                            app:minor_title="@string/newsfeed"
+                            app:minor_title_text_color="#9e9e9e"
+                            app:minor_title_selected_color="#FFFFFF"/>
+
+                        <com.akiniyalocts.minor.MinorView
+                            android:id="@+id/friends_badges"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            app:minor_icon_view="@layout/tab_friends"
+                            app:minor_selected="false"
+                            app:minor_title="@string/friends"
+                            app:minor_title_text_color="#9e9e9e"
+                            app:minor_title_selected_color="#FFFFFF"/>
+
+                        <com.akiniyalocts.minor.MinorView
+                            android:id="@+id/messages_badges"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            app:minor_icon_view="@layout/tab_messages"
+                            app:minor_selected="false"
+                            app:minor_title="@string/messenger"
+                            app:minor_title_text_color="#9e9e9e"
+                            app:minor_title_selected_color="#FFFFFF"/>
+
+
+                        <com.akiniyalocts.minor.MinorView
+                            android:id="@+id/notify_badges"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            app:minor_icon_view="@layout/tab_notifications"
+                            app:minor_title="@string/notifications"
+                            app:minor_title_text_color="#9e9e9e"
+                            app:minor_title_selected_color="#FFFFFF"/>
+
+                        <com.akiniyalocts.minor.MinorView
+                            android:id="@+id/side_menu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            app:minor_icon_view="@layout/tab_menu"
+                            app:minor_title="@string/settings_more"
+                            app:minor_title_text_color="#9e9e9e"
+                            app:minor_title_selected_color="#FFFFFF"/>
+
+                    </com.akiniyalocts.minor.MinorLayout>
+
+
+                </android.support.design.widget.CoordinatorLayout>
+
+            </FrameLayout>
+
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/simple_pins_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:fitsSystemWindows="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/favorites_height"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:background="?attr/colorPrimary"
+                    android:fitsSystemWindows="true">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/favorites_text"
+                        android:layout_marginStart="@dimen/favorites_add"
+                        android:layout_gravity="start|center"
+                        android:src="@drawable/ic_pin"
+                        android:tint="@color/white"
+                        tools:ignore="ContentDescription"
+                        android:layout_alignTop="@+id/textView"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/favorites_text"
+                        android:layout_gravity="center"
+                        android:text="@string/faved"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                        android:textColor="@color/white"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        tools:ignore="RelativeOverlap" />
+
+                    <ImageView
+                        android:id="@+id/add_new_pin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/favorites_text"
+                        android:layout_marginEnd="@dimen/favorites_add"
+                        android:layout_gravity="end|center"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:src="@drawable/ic_add"
+                        android:tint="@color/white"
+                        tools:ignore="ContentDescription"
+                        android:layout_alignTop="@+id/textView"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/pins_recyclerView"
+                    android:paddingTop="16dp"
+                    android:clipToPadding="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </android.support.design.widget.NavigationView>
+
+
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/main_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/simple_navigation_header"
+            app:menu="@menu/main_drawer" >
+        </android.support.design.widget.NavigationView>
+    </android.support.v4.widget.DrawerLayout>
+
+
+</RelativeLayout>

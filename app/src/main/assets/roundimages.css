@@ -1,0 +1,11 @@
+.profpic{background: #ffffff; border-radius: 200px !important;}
+
+._4prr::after {
+    border: 1px transparent;
+}
+
+.img {
+    border: 1px transparent;
+    display: inline-block;
+    vertical-align: top;
+}

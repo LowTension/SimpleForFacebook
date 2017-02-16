@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ripple-1.3.1-OG">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/build/intermediates/exploded-aar/com.github.traex.rippleeffect/ripple/1.3.1-OG/res" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/com.github.traex.rippleeffect/ripple/1.3.1-OG/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.traex.rippleeffect/ripple/1.3.1-OG/1f57413fbb6eaa5b6d4a6f462c57a8a18dcdfe5b/ripple-1.3.1-OG-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

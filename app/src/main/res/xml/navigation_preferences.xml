@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.creativetrends.simple.app.preferences.PreferenceCategory
+        android:title="@string/quickaccess">
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="recent_off"
+            android:title="@string/most_recent" />
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="top_off"
+            android:title="@string/top_news" />
+
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="trending_off"
+            android:title="@string/trending_nav" />
+
+        <Preference
+            android:title="divider"
+            android:selectable="false"
+            android:layout="@layout/divider_preference"/>
+
+    </com.creativetrends.simple.app.preferences.PreferenceCategory>
+
+    <com.creativetrends.simple.app.preferences.PreferenceCategory
+        android:title="Favorites">
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="friends_off"
+            android:title="@string/friends_nav" />
+
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="groups_off"
+            android:title="@string/groups_nav" />
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="pages_off"
+            android:title="@string/pages_nav" />
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="photos_off"
+            android:title="@string/photos_nav" />
+
+        <Preference
+            android:title="divider"
+            android:selectable="false"
+            android:layout="@layout/divider_preference"/>
+
+    </com.creativetrends.simple.app.preferences.PreferenceCategory>
+
+    <com.creativetrends.simple.app.preferences.PreferenceCategory
+        android:title="@string/reminders">
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="events_off"
+            android:title="@string/events_nav" />
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="thisday_off"
+            android:title="@string/onday_nav" />
+
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="saved_off"
+            android:title="@string/saved_nav" />
+
+        <Preference
+            android:title="divider"
+            android:selectable="false"
+            android:layout="@layout/divider_preference"/>
+
+
+    </com.creativetrends.simple.app.preferences.PreferenceCategory>
+
+
+</PreferenceScreen>

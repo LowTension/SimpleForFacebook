@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Copyright (C) 2014-2015 Jorell Rutledge/Creative Trends.
+	This file is originally apart of Folio for Facebook.
+	Copyright notice must remain here if you're using any part of this code.-->
+    <color name="defaultcolor">#dcdee3</color>
+    <color name="darcula">#292929</color>
+    <color name="PrimaryColor">#3b5999</color>
+    <color name="PrimaryDarkColor">#354f88</color>
+    <color name="white">#ffffff</color>
+    <color name="drawer_back">#2B2E3B</color>
+    <color name="black_semi_transparent">#10000000</color>
+
+    <!-- Pink Theme -->
+    <color name="bcP">#C2185B</color>
+    <color name="bcPD">#880E4F</color>
+
+    <!-- Dark Theme -->
+
+    <color name="dcP">#111111</color>
+    <color name="dcPD">#000000</color>
+    <color name="dcA">#212121</color>
+
+
+    <!-- Material Orange Accent -->
+
+
+    <color name="colorPrimary">#3b5999</color>
+    <color name="colorPrimaryDark">#354f88</color>
+    <color name="colorAccent">#4063a0</color>
+
+    <color name="colorTransparent">#09999999</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="black">#000000</color>
+
+
+    <!-- other colors for themes -->
+
+    <!--reds-->
+    <color name="md_red_500">#f44336</color>
+    <color name="md_red_700">#d32f2f</color>
+    <color name="md_red_900">#b71c1c</color>
+    <!-- pinks -->
+    <!-- purples -->
+    <!-- deep purples -->
+    <color name="md_deep_purple_500">#673ab7</color>
+    <color name="md_deep_purple_700">#512da8</color>
+    <!-- indigos -->
+    <!--blues-->
+    <color name="md_blue_700">#1976d2</color>
+    <color name="md_blue_800">#1565c0</color>
+    <!-- light blues-->
+    <!-- cyans -->
+    <color name="md_cyan_500">#00bcd4</color>
+    <color name="md_cyan_700">#0097a7</color>
+    <!-- teals -->
+    <!-- greens -->
+    <color name="md_green_500">#4caf50</color>
+    <color name="md_green_700">#388e3c</color>
+    <!--light greens-->
+    <color name="md_light_green_500">#8bc34a</color>
+    <color name="md_light_green_700">#689f38</color>
+    <!-- limes -->
+    <!--yellows -->
+    <!-- ambers -->
+    <color name="md_amber_500">#ffc107</color>
+    <color name="md_amber_700">#ffa000</color>
+    <!-- oranges -->
+    <!-- deep oranges -->
+    <color name="md_deep_orange_500">#ff5722</color>
+    <color name="md_deep_orange_700">#e64a19</color>
+    <!-- browns -->
+    <!--grey-->
+    <color name="md_grey_400">#bdbdbd</color>
+    <color name="md_grey_500">#9e9e9e</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_white_1000_25">#40ffffff</color>
+    <!--blue grey-->
+    <color name="md_blue_grey_500">#292929</color>
+    <color name="md_blue_grey_700">#202020</color>
+    <!--Texts-->
+    <color name="md_text_white">#ffffffff</color>
+    <color name="md_secondary_text_icons_white">#b3ffffff</color>
+    <color name="md_divider">#1f000000</color>
+    <!--Falcon-->
+    <color name="md_falcon_500">#384e77</color>
+    <color name="md_falcon_700">#2b3e5f</color>
+
+
+    <color name="gradient_start">#40000000</color>
+
+
+    <color name="dark_grey_color">#4a636f</color>
+    <color name="light_blue_500">#03a9f4</color>
+    <color name="light_gray_bar">#eaf2f5</color>
+
+
+    <color name="compatibility_pressed_color">#1a000000</color>
+    <color name="compatibility_focus_color">#48000000</color>
+
+
+</resources>

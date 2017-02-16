@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_menu"
+    android:layout_width="255dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|end"
+    android:layout_marginBottom="8dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="4dp"
+    android:soundEffectsEnabled="false"
+    android:visibility="gone"
+    app:cardElevation="10dp"
+    tools:ignore="RtlHardcoded">
+
+    <ScrollView
+        android:id="@+id/scroller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:orientation="horizontal"
+                android:paddingBottom="6dp"
+                android:paddingTop="10dp"
+                android:weightSum="3">
+
+
+                <ImageView
+                    android:id="@+id/simple_go_forward"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_go_forward_light"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/simple_info"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_info_browser"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/simple_refresh"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_refresh_browser"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/simple_stop"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_close_browser"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:id="@+id/simple_copy_link"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="@string/copy_url"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/simple_open_link"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/open_in_browser"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/simple_fav_link"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/addPage"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+
+                <View
+                    android:id="@+id/separator"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#FFE0E0E0" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:background="#FFF5F5F5"
+                    android:gravity="start|center"
+                    android:paddingLeft="16dp"
+                    android:text="@string/simple_browser"
+                    android:textColor="#FF656565"
+                    android:textSize="12sp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry,SmallSp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.v7.widget.CardView>

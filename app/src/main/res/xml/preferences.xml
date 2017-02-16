@@ -1,0 +1,341 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.creativetrends.simple.app.preferences.PreferenceCategory
+        android:title="@string/notifications_settings"
+        android:key="notify_settings">
+
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_links"
+            android:key="notifications_activated"
+            android:summary="Enable to receive notifications."
+            android:title="General Notifications" />
+
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_mess"
+            android:key="messages_activated"
+            android:summary="Enable to receive message notifications."
+            android:title="@string/activate_messages" />
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:icon="@drawable/ic_bell"
+            android:key="ringtone"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="%s."
+            android:title="@string/notification_sound"
+            android:dependency="notifications_activated"/>
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:icon="@drawable/ic_bell"
+            android:key="ringtone_msg"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="%s."
+            android:title="@string/message_sound"
+            android:dependency="messages_activated"/>
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_vibrate"
+            android:key="vibrate"
+            android:title="@string/vibrate"
+            android:summary="Enable or disable notification vibration."/>
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_led"
+            android:key="led_light"
+            android:title="@string/led_light"
+            android:summary="Enable or disable notification LED."/>
+
+        <com.creativetrends.simple.app.preferences.ListPreferenceCompat
+            android:icon="@drawable/ic_sync_time"
+            android:defaultValue="1800000"
+            android:entries="@array/update_interval"
+            android:entryValues="@array/update_interval_values"
+            android:key="interval_pref"
+            android:summary="%s."
+            android:title="Notification Check Interval" />
+
+        <Preference
+            android:title="divider"
+            android:selectable="false"
+            android:layout="@layout/divider_preference"/>
+
+ </com.creativetrends.simple.app.preferences.PreferenceCategory>
+
+    <com.creativetrends.simple.app.preferences.PreferenceCategory android:title="Privacy Settings">
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_lock"
+            android:key="simple_locker"
+            android:summary="@string/lock_text_new"
+            android:title="@string/simple_lock" />
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_location"
+            android:key="allow_location"
+            android:title="@string/enable_location"
+            android:summary="Enable for check-ins."/>
+
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_chart"
+            android:key="analytics_true"
+            android:summary="@string/analytics_hint"
+            android:title="@string/analytics" />
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_cache"
+            android:key="clear"
+            android:summary="@string/clear_cache_description_new"
+            android:title="@string/clear_cache" />
+
+
+        <Preference
+            android:title="divider"
+            android:selectable="false"
+            android:layout="@layout/divider_preference"/>
+
+        </com.creativetrends.simple.app.preferences.PreferenceCategory>
+
+
+    <com.creativetrends.simple.app.preferences.PreferenceCategory android:title="Browsing Settings">
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:key="allow_inside"
+            android:defaultValue="true"
+            android:title="@string/open_in"
+            android:icon="@drawable/ic_launcher_icon"/>
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="peek_View"
+            android:title="Peek View"
+            android:summary="Long press on links and images to view them quickly."
+            android:icon="@drawable/ic_quick_view"/>
+
+
+        <Preference
+            android:title="divider"
+            android:selectable="false"
+            android:layout="@layout/divider_preference"/>
+
+    </com.creativetrends.simple.app.preferences.PreferenceCategory>
+
+
+    <com.creativetrends.simple.app.preferences.PreferenceCategory android:title="Customizations &amp; Themes">
+
+        <com.creativetrends.simple.app.preferences.ListPreferenceCompat
+            android:defaultValue="googlebluedark"
+            android:entries="@array/pref_theme_entries"
+            android:entryValues="@array/pref_theme_values"
+            android:key="theme_preference"
+            android:icon="@drawable/ic_palette"
+            android:summary="%s."
+            android:title="Simple App Color" />
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:key="nav"
+            android:title="@string/color_navigation"
+            android:icon="@drawable/ic_colorize"
+            android:defaultValue="false" />
+
+        <com.creativetrends.simple.app.preferences.ListPreferenceCompat
+            android:defaultValue="materialtheme"
+            android:entries="@array/pref_theme_fb_entries"
+            android:entryValues="@array/pref_theme_values_free"
+            android:key="theme_preference_fb"
+            android:icon="@drawable/ic_palette"
+            android:summary="%s."
+            android:title="Facebook Mobile Style" />
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="auto_night"
+            android:icon="@drawable/ic_night_theme"
+            android:title="@string/auto_night_title"/>
+
+
+        <com.creativetrends.simple.app.preferences.ListPreferenceCompat
+            android:defaultValue="100"
+            android:entries="@array/default_font_size_entries"
+            android:entryValues="@array/default_font_size_entry_values"
+            android:icon="@drawable/ic_font"
+            android:key="font_size"
+            android:summary="%s."
+            android:title="Font Size" />
+
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:icon="@drawable/ic_custom_directory"
+            android:defaultValue="false"
+            android:key="custom_pictures"
+            android:summary="Enable to choose a custom directory for downloads."
+            android:title="Downloads Directory" />
+
+        <Preference
+            android:icon="@drawable/ic_folder_set"
+            android:key="custom_directory"
+            android:title="Custom Directory"
+            android:dependency="custom_pictures"/>
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="show_fab"
+            android:icon="@drawable/ic_fab_show"
+            android:summary="@string/show_fab_hint"
+            android:title="@string/show_fab" />
+
+        <Preference
+            android:title="divider"
+            android:selectable="false"
+            android:layout="@layout/divider_preference"/>
+
+    </com.creativetrends.simple.app.preferences.PreferenceCategory>
+
+
+    <com.creativetrends.simple.app.preferences.PreferenceCategory android:title="@string/news_feed_preferences">
+
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_remove_ads"
+            android:key="hide_ads"
+            android:title="@string/hide_ads"
+            android:summary="Hide Facebook ads."/>
+
+        <com.creativetrends.simple.app.preferences.ListPreferenceCompat
+            android:defaultValue="most_recent"
+            android:entries="@array/pref_default_feed"
+            android:entryValues="@array/pref_feed"
+            android:icon="@drawable/ic_news"
+            android:key="news_feed"
+            android:summary="%s."
+            android:title="@string/feed_choice" />
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_hide_people"
+            android:key="hide_people"
+            android:title="@string/people_you_hint"
+            android:summary="Hide people you may know on the news feed."/>
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_hide_editor"
+            android:key="news_edit"
+            android:title="@string/hide_editor"
+            android:summary="Hide the news feed status editor."/>
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="no_images"
+            android:icon="@drawable/ic_diabale_images"
+            android:summary="@string/no_images_hint_new"
+            android:title="@string/no_images" />
+
+        <Preference
+            android:title="divider"
+            android:selectable="false"
+            android:layout="@layout/divider_preference"/>
+
+    </com.creativetrends.simple.app.preferences.PreferenceCategory>
+
+
+    <com.creativetrends.simple.app.preferences.PreferenceCategory android:title="Shortcuts &amp; Drawer Settings">
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_mess"
+            android:key="message_shortcut"
+            android:summary="When enabled a shortcut messages will be added to your app drawer."
+            android:title="Message Shortcut" />
+
+        <com.creativetrends.simple.app.preferences.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_links"
+            android:key="notification_shortcut"
+            android:summary="When enabled a shortcut notifications will be added to your app drawer."
+            android:title="Notification Shortcut" />
+
+        <Preference
+            android:icon="@drawable/ic_nav_prefs"
+            android:key="drawer_items_pref"
+            android:summary="@string/navigation_pref_hint"
+            android:title="@string/navigation_pref" />
+
+
+        <Preference
+            android:title="divider"
+            android:selectable="false"
+            android:layout="@layout/divider_preference"/>
+
+        </com.creativetrends.simple.app.preferences.PreferenceCategory>
+
+
+    <com.creativetrends.simple.app.preferences.PreferenceCategory android:title="@string/preference_about_category">
+
+
+
+        <Preference
+            android:icon="@drawable/ic_help"
+            android:key="version_number"
+            android:title="Version" />
+
+        <Preference
+            android:icon="@drawable/ic_thumbs_up"
+            android:key="rate_simple"
+            android:title="@string/ratesimple"
+            android:summary="Help others enjoy Simple by rating the app on Google Play."/>
+
+        <Preference
+            android:icon="@drawable/ic_folio"
+            android:key="get_folio"
+            android:summary="Get Folio From Google Play."
+            android:title="Based on Folio for Facebook">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://play.google.com/store/apps/details?id=com.creativetrends.folio.app" />
+        </Preference>
+
+
+        <Preference
+            android:icon="@drawable/ic_github"
+            android:key="get_source"
+            android:summary="Build Simple from source."
+            android:title="Get Source Code">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://github.com/creativetrendsapps/SimpleForFacebook" />
+        </Preference>
+
+
+        <Preference
+            android:icon="@drawable/ic_credits"
+            android:key="terms"
+            android:title="@string/terms_settings_new"
+            android:summary="Simple's terms of use."/>
+
+
+        <Preference
+            android:title="divider"
+            android:selectable="false"
+            android:layout="@layout/divider_preference"/>
+
+
+
+    </com.creativetrends.simple.app.preferences.PreferenceCategory>
+
+
+</PreferenceScreen>
